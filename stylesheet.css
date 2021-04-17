@@ -4,16 +4,15 @@ body{
     font-family: 'Press Start 2P', cursive;
     text-align: center;
  }
+
  h1{
   font-size: 50px;
-
 }
 .heading{
     position: relative;
     top: 90px;
     font-size: 45px;
 }
-
 .row{
     margin-top: 4px;
     padding-bottom: 17px;
@@ -78,6 +77,19 @@ body{
     color: rgb(255, 255, 255);
     background-color: rgb(255, 0, 0);
 } 
+.hh{
+    text-align: center;
+}
+.instructions{
+    background-color: rgb(59, 59, 59);
+    color: rgb(224, 224, 222);
+    padding:10px;
+    border-radius: 7%;
+    width: 50%;
+    margin:auto;
+    margin-bottom: 30px;
+
+}
 
 @media only screen and (max-width: 450px){
     .blue{
@@ -96,6 +108,12 @@ body{
         width: 130px;
         height: 130px;
     }
+    .instructions{
+        width: 90%;
+       margin: auto;
+    margin-bottom: 30px;
+        
+    }
 };
 .pressed{
     box-shadow: 0 0 20px white;
@@ -104,4 +122,10 @@ body{
 .game-over{
     background-color:  red;
     opacity: 0.9;
+}
+.input {
+    padding: 10px 10px;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
 }
